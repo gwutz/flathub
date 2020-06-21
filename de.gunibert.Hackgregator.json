@@ -1,7 +1,7 @@
 {
     "app-id": "de.gunibert.Hackgregator",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "hackgregator",
     "finish-args": [
@@ -31,19 +31,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.10/libhandy-v0.0.10.tar.gz",
-                    "sha256" : "9f4528c07bdb9796300ff0efb165cdc48cfcd7f28952c9d776de15b735844981"
-                }
-            ]
-        },
-        {
-            "name": "hackernews-glib",
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.com/gunibert/hackernews-glib.git",
-                    "commit" : "9567336a085a23bb000637b630afca4d4a198c83"
+                    "url" : "https://gitlab.gnome.org/GNOME/libhandy/-/archive/0.82.0/libhandy-0.82.0.tar.gz",
+                    "sha256" : "cf73a1f1dec6347627b0d12d70c12ce7f9ce947066280e57654ffa13fe3b71c1"
                 }
             ]
         },
@@ -55,9 +44,9 @@
             ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.com/gunibert/hackgregator.git",
-                    "commit" : "ac019e492cbf4703ae8324be58640434d2986137"
+                    "type" : "git",
+                    "url" : "https://gitlab.com/gunibert/hackgregator.git",
+                    "tag" : "0.3.0"
                 }
             ]
         }
